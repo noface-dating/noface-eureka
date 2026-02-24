@@ -2,7 +2,7 @@
 
 ---
 
-![architecture](docs\images\eureka.png)
+![architecture](docs/images/eureka.png)
 
 ## 1. Runtime
 
