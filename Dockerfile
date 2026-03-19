@@ -6,4 +6,4 @@ WORKDIR /app
 COPY build/libs/*.jar app.jar
 
 # EXECUTE
-ENTRYPOINT ["java", "-jar", "app.jar"]
+ENTRYPOINT ["java","-XX:+UseContainerSupport","-XX:MaxRAMPercentage=75.0","-jar","-Dserver.port=8761","app.jar"]
